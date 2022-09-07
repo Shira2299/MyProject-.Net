@@ -1,0 +1,32 @@
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.exe
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.deps.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.runtimeconfig.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.runtimeconfig.dev.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.csprojAssemblyReference.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.AssemblyInfoInputs.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.AssemblyInfo.cs
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.csproj.CoreCompileInputs.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.csproj.CopyComplete
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.genruntimeconfig.cache
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.exe
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.deps.json
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.runtimeconfig.json
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.runtimeconfig.dev.json
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.dll
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.ConsoleUp.pdb
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.AssemblyInfoInputs.cache
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.AssemblyInfo.cs
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.csproj.CoreCompileInputs.cache
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.csproj.CopyComplete
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.dll
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.pdb
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.genruntimeconfig.cache
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.csprojAssemblyReference.cache

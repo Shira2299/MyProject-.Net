@@ -1,0 +1,18 @@
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.deps.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csprojAssemblyReference.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.AssemblyInfoInputs.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.AssemblyInfo.cs
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csproj.CoreCompileInputs.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.deps.json
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.AssemblyInfoInputs.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.AssemblyInfo.cs
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csproj.CoreCompileInputs.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csprojAssemblyReference.cache
