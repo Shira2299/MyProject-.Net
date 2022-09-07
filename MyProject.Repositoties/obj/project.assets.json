@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
+      "projectUniqueName": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
       "projectName": "MyProject.Repositoties",
-      "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
+      "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\obj\\",
+      "outputPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
