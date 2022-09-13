@@ -15,4 +15,5 @@ E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csproj.CoreCompileInputs.cache
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.dll
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
-E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csprojAssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.GeneratedMSBuildEditorConfig.editorconfig

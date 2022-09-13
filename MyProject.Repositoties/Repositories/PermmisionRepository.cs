@@ -22,7 +22,9 @@ namespace MyProject.Repositoties.Repositories
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var deletePermission = _context.Permissions.Find(r => r.Id == id);
+            if (deletePermission != null)
+                _context.Permissions.Remove(deletePermission);
         }      
         public Permission GetById(int id)
         {
@@ -31,10 +33,13 @@ namespace MyProject.Repositoties.Repositories
 
         public Permission Update(Permission r)
         {
-            throw new NotImplementedException();
+            var updatePermission = _context.Permissions.Find(r => r.Id == r.Id);
+            updatePermission.Name = r.Name;
+            updatePermission.Descreption = r.Descreption;
+            return updatePermission;
         }
 
-        List<Permission> IPermissionRepository.GetAll()
+        public List<Permission> GetAll()
         {
             return _context.Permissions;
         }

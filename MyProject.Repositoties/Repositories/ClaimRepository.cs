@@ -22,7 +22,9 @@ namespace MyProject.Repositoties.Repositories
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var deleteClaim = _context.Claims.Find(r => r.Id == id);
+            if (deleteClaim != null)
+                _context.Claims.Remove(deleteClaim);
         }      
 
         public claim GetById(int id)
@@ -32,10 +34,14 @@ namespace MyProject.Repositoties.Repositories
 
         public claim Update(claim c)
         {
-            throw new NotImplementedException();
+           var updateClaim= _context.Claims.Find(r => r.Id == c.Id);
+            updateClaim.PermissionId = c.PermissionId;
+            updateClaim.RoleId = c.RoleId;
+            updateClaim.epolicy=c.epolicy;
+            return updateClaim;
         }
 
-        List<claim> IClaimRepository.GetAll()
+        public List<claim> GetAll()
         {
             return _context.Claims;
         }

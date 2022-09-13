@@ -22,6 +22,8 @@ namespace MyProject.ConsoleUp
             var mockContext = new MockContext();
             //create repository and send the MockContext to the ctor
             var roleRepository = new RoleRepository(mockContext);
+            var permmisionRepository=new PermmisionRepository(mockContext);
+            var claimRepository=new ClaimRepository(mockContext);
             string obg;
             string str;
             do
@@ -36,15 +38,78 @@ namespace MyProject.ConsoleUp
                         switch(str)
                         {
                             case "add":
+                                Console.WriteLine("Enter id,name,description");
                                 roleRepository.Add(int.Parse(Console.ReadLine()), Console.ReadLine(), Console.ReadLine());
                                 break;
                             case "delete":
+                                Console.WriteLine("Press Id for deleted");
                                 roleRepository.Delete(int.Parse(Console.ReadLine()));
                                 break;
-                                
+                            case "GetAll":
+                                roleRepository.GetAll();
+                                break;
+                            case "GetById":
+                                Console.WriteLine("Press Id");
+                                roleRepository.GetById(int.Parse(Console.ReadLine()));
+                                break;
+                            //case "Update":
+                            //    Role r = roleRepository.Update(int.Parse(Console.ReadLine()));
+                            //    break;
+
                         }
+                        break;
+                    case "p":
+                        Console.WriteLine("Enter action");
+                        str = Console.ReadLine();
+                        switch(str)
+                        {
+                            case "add":
+                                Console.WriteLine("Enter id,name,description");
+                                permmisionRepository.Add(int.Parse(Console.ReadLine()), Console.ReadLine(), Console.ReadLine());
+                                break;
+                            case "delete":
+                                Console.WriteLine("Press Id for deleted");
+                                permmisionRepository.Delete(int.Parse(Console.ReadLine()));
+                                break;
+                            case "GetAll":
+                                permmisionRepository.GetAll();
+                                break;
+                            case "GetById":
+                                Console.WriteLine("Press Id");
+                                permmisionRepository.GetById(int.Parse(Console.ReadLine()));
+                                break;
+                                //case "Update":
+                                //    Permmision r = permmisionRepository.Update(int.Parse(Console.ReadLine()));
+                                //    break;
+                        }
+                        break;
+                    case "c":
+                        Console.WriteLine("Enter action");
+                        str = Console.ReadLine();
+                        switch(str)
+                        {
+                            case "add":
+                                Console.WriteLine("Enter int int int");
+                                claimRepository.Add(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+                                break;
+                            case "GetById":
+                                Console.WriteLine("Prees Id");
+                                claimRepository.GetById(int.Parse(Console.ReadLine()));
+                                break;
+                            case "GetAll":
+                                claimRepository.GetAll();
+                                break;
+                            case "delete":
+                                Console.WriteLine("Press Id for deleted");
+                                claimRepository.Delete(int.Parse(Console.ReadLine()));
+                                break;
+                                //case "Update":
+                                //    Permmision r = permmisionRepository.Update(int.Parse(Console.ReadLine()));
+                                //    break;
+                        }
+                       break ;
                 }
-              
+
             } while (obg != "exit");
         }
     }

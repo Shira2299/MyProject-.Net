@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj": {}
+    "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj": {}
   },
   "projects": {
-    "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj": {
+    "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
+        "projectUniqueName": "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
         "projectName": "MyProject.ConsoleUp",
-        "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\obj\\",
+        "projectPath": "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
-                "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj"
+              "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
+                "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj"
               },
-              "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
-                "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj"
+              "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
+                "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj"
               }
             }
           }
@@ -56,26 +60,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.24, 3.1.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
+    "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
+        "projectUniqueName": "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
         "projectName": "MyProject.Mock",
-        "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\obj\\",
+        "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Full Stack\\MyProject\\MyProject.Mock\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +103,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
-                "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj"
+              "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
+                "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj"
               }
             }
           }
@@ -119,21 +133,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
+    "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
+        "projectUniqueName": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
         "projectName": "MyProject.Repositoties",
-        "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\obj\\",
+        "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

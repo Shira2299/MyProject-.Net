@@ -1,0 +1,13 @@
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\netcoreapp3.1\MyProject.Mock.deps.json
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\netcoreapp3.1\MyProject.Mock.dll
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\netcoreapp3.1\MyProject.Mock.pdb
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.GeneratedMSBuildEditorConfig.editorconfig
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.AssemblyInfoInputs.cache
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.AssemblyInfo.cs
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.csproj.CoreCompileInputs.cache
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.csproj.CopyComplete
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.dll
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.pdb

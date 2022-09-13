@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nInl+Ygb6wM+qE14Su5agW4/NoLoMVhhNaBg+xUJw+U9WElCItL2RUdlR2Dp6Cf0c7P1ivNSl0OomXos1C3Tbw==",
+  "dgSpecHash": "c2fAtxnKBVX+iGNrldfPeCAu0Km56LsMmvoCFNpAB6PHXxkMDR75+hu0G3LT/FDe0jePyEvCjklvQW1aOzjMfg==",
   "success": true,
-  "projectFilePath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
   "logs": []
 }

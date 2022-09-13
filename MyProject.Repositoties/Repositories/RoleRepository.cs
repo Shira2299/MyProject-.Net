@@ -6,7 +6,6 @@ using System.Text;
 namespace MyProject.Repositoties.Repositories
 {
     public class RoleRepository : IRoleRepository
-
     {
         private readonly IContex _context;
 
@@ -14,9 +13,6 @@ namespace MyProject.Repositoties.Repositories
         {
             _context = context;
         }
-
-       // public int Id { get; private set; }
-
         public Role Add(int id, string name, string description)
         {
             var newRole = new Role { Id = id, Name = name, Descreption = description };
@@ -38,13 +34,14 @@ namespace MyProject.Repositoties.Repositories
 
         public Role Update(Role r)
         {
+            //var newRole = GetById(role.id);לשאול מה עדיף
             var updateRole = _context.Roles.Find(r => r.Id == r.Id);
             updateRole.Name = r.Name;
             updateRole.Descreption = r.Descreption;
             return updateRole;
         }
 
-        List<Role> IRoleRepository.GetAll()
+        public List<Role> GetAll()
         {
             return _context.Roles;
         }
