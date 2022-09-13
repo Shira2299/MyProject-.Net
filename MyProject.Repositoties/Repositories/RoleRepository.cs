@@ -6,30 +6,47 @@ using System.Text;
 namespace MyProject.Repositoties.Repositories
 {
     public class RoleRepository : IRoleRepository
+
     {
+        private readonly IContex _context;
+
+        public RoleRepository(IContex context)
+        {
+            _context = context;
+        }
+
+       // public int Id { get; private set; }
+
         public Role Add(int id, string name, string description)
         {
-            throw new NotImplementedException();
+            var newRole = new Role { Id = id, Name = name, Descreption = description };
+            _context.Roles.Add(newRole);
+            return newRole;
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
-        }
-
-        public Role[] GetAll()
-        {
-            throw new NotImplementedException();
-        }
+            var deleteRole = _context.Roles.Find(r => r.Id == id);
+            if (deleteRole != null)
+                _context.Roles.Remove(deleteRole);
+        }     
 
         public Role GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Roles.Find(r => r.Id == id);
         }
 
         public Role Update(Role r)
         {
-            throw new NotImplementedException();
+            var updateRole = _context.Roles.Find(r => r.Id == r.Id);
+            updateRole.Name = r.Name;
+            updateRole.Descreption = r.Descreption;
+            return updateRole;
+        }
+
+        List<Role> IRoleRepository.GetAll()
+        {
+            return _context.Roles;
         }
     }
 }

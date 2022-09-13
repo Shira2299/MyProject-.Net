@@ -6,7 +6,7 @@ namespace MyProject.Repositoties.Interfaces
 {
   public  interface IClaimRepository
     {
-        public claim[] GetAll();
+        public List<claim> GetAll();
 
         public claim GetById(int id);
 

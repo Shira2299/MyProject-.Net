@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "MyProject.Mock/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "MyProject.Repositoties": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MyProject.Mock.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyProject.Mock.dll": {}
-        }
-      },
       "MyProject.Repositoties/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -28,11 +15,6 @@
     }
   },
   "libraries": {
-    "MyProject.Mock/1.0.0": {
-      "type": "project",
-      "path": "../MyProject.Mock/MyProject.Mock.csproj",
-      "msbuildProject": "../MyProject.Mock/MyProject.Mock.csproj"
-    },
     "MyProject.Repositoties/1.0.0": {
       "type": "project",
       "path": "../MyProject.Repositoties/MyProject.Repositoties.csproj",
@@ -41,7 +23,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MyProject.Mock >= 1.0.0",
       "MyProject.Repositoties >= 1.0.0"
     ]
   },
@@ -51,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
-      "projectName": "MyProject.ConsoleUp",
-      "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
+      "projectUniqueName": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
+      "projectName": "MyProject.Mock",
+      "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.ConsoleUp\\obj\\",
+      "outputPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,9 +53,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
-              "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj"
-            },
             "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
               "projectPath": "W:\\כתות ו\\התמחויות\\הנדסת תוכנה\\תלמידות\\מועלם שירה\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj"
             }

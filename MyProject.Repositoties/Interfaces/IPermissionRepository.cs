@@ -6,7 +6,7 @@ namespace MyProject.Repositoties.Interfaces
 {
   public  interface IPermissionRepository
     {
-        public Permission[] GetAll();
+        public List<Permission> GetAll();
 
         public Permission GetById(int id);
 

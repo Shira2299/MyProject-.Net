@@ -6,7 +6,7 @@ namespace MyProject.Repositoties.Interface
 {
   public  interface IRoleRepository
     {
-        public Role[] GetAll();
+        public List<Role> GetAll();
 
         public Role GetById(int id);
 
