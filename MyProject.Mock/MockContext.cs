@@ -17,8 +17,8 @@ namespace MyProject.Mock
             this.Permissions = new List<Permission>();
             this.Claims = new List<claim>();
 
-            this.Roles.Add(new Role { Id = 1, Name = "admin", Descreption = "administrator with full access" });
-            this.Roles.Add(new Role { Id = 2, Name = "user", Descreption = "user with limited access" });
+            this.Roles.Add(new Role { Id = 1, Name = "admin", Description = "administrator with full access" });
+            this.Roles.Add(new Role { Id = 2, Name = "user", Description = "user with limited access" });
 
             this.Permissions.Add(new Permission { Id = 1, Name = "VIEW_ALL_ORDERS" });
             this.Permissions.Add(new Permission { Id = 2, Name = "VIEW_ALL_PRODUCTS" });

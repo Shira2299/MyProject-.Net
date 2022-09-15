@@ -13,9 +13,9 @@ namespace MyProject.Repositoties.Repositories
         {
             _context = context;
         }
-        public Permission Add(int id, string name, string descreption)
+        public Permission Add(int id, string name, string description)
         {
-            var newPermission = new Permission { Id = id, Name = name, Descreption = descreption };
+            var newPermission = new Permission { Id = id, Name = name, Description = description };
             _context.Permissions.Add(newPermission);
             return newPermission;
         }
@@ -35,7 +35,7 @@ namespace MyProject.Repositoties.Repositories
         {
             var updatePermission = _context.Permissions.Find(r => r.Id == r.Id);
             updatePermission.Name = r.Name;
-            updatePermission.Descreption = r.Descreption;
+            updatePermission.Description = r.Description;
             return updatePermission;
         }
 

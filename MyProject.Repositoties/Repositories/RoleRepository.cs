@@ -15,7 +15,7 @@ namespace MyProject.Repositoties.Repositories
         }
         public Role Add(int id, string name, string description)
         {
-            var newRole = new Role { Id = id, Name = name, Descreption = description };
+            var newRole = new Role { Id = id, Name = name, Description = description };
             _context.Roles.Add(newRole);
             return newRole;
         }
@@ -37,10 +37,10 @@ namespace MyProject.Repositoties.Repositories
             //var newRole = GetById(role.id);לשאול מה עדיף
             var updateRole = _context.Roles.Find(r => r.Id == r.Id);
             updateRole.Name = r.Name;
-            updateRole.Descreption = r.Descreption;
+            updateRole.Description = r.Description;
             return updateRole;
         }
-
+       
         public List<Role> GetAll()
         {
             return _context.Roles;
