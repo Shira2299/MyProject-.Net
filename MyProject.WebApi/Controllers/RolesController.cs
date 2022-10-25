@@ -32,28 +32,32 @@ namespace MyProject.WebApi.Controllers
 
         // GET api/<RolesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Role Get(int id)
         {
-            return "value";
+            return _roleRepository.GetById(id);
         }
 
+        //[FromBody] string value
         // POST api/<RolesController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public Role Post(Role r)//update
         {
-            _emailManager.Send("Shiram33993@gmail.com");
+            // _emailManager.Send("Shiram33993@gmail.com");
+            return _roleRepository.Update(r);
         }
-
+        //int id, [FromBody] string value
         // PUT api/<RolesController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public Role Put(int id, string name, string description)//add
         {
+            return _roleRepository.Add(id, name, description);
         }
 
         // DELETE api/<RolesController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            _roleRepository.Delete(id);
         }
     }
 }

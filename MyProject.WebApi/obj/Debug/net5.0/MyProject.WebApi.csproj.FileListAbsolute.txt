@@ -5,7 +5,6 @@ E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.WebApi.deps.
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.WebApi.runtimeconfig.json
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.WebApi.runtimeconfig.dev.json
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.WebApi.dll
-E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\ref\MyProject.WebApi.dll
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.WebApi.pdb
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
@@ -19,7 +18,6 @@ E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.csprojAssemblyReference.cache
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.GeneratedMSBuildEditorConfig.editorconfig
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.AssemblyInfoInputs.cache
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.AssemblyInfo.cs
@@ -27,7 +25,6 @@ E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.cspro
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.MvcApplicationPartsAssemblyInfo.cs
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.MvcApplicationPartsAssemblyInfo.cache
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\staticwebassets\MyProject.WebApi.StaticWebAssets.Manifest.cache
-E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\staticwebassets\MyProject.WebApi.StaticWebAssets.xml
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\scopedcss\bundle\MyProject.WebApi.styles.css
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.RazorTargetAssemblyInfo.cache
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.csproj.CopyComplete
@@ -35,3 +32,9 @@ E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.dll
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\ref\MyProject.WebApi.dll
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.pdb
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.genruntimeconfig.cache
+E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.Mock.dll
+E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.Mock.pdb
+E:\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net5.0\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\MyProject.WebApi.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net5.0\refint\MyProject.WebApi.dll

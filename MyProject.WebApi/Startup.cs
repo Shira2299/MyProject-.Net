@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MyProject.Mock;
 using MyProject.Repositoties.Interface;
+using MyProject.Repositoties.Interfaces;
 using MyProject.Repositoties.Repositories;
 using System;
 using System.Collections.Generic;
@@ -38,6 +39,8 @@ namespace MyProject.WebApi
             services.AddScoped<IEmailManager, EmailManager>();
             services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IContex, MockContext>();
+            services.AddScoped<IPermissionRepository, PermmisionRepository>();
+            services.AddScoped<IClaimRepository, ClaimRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

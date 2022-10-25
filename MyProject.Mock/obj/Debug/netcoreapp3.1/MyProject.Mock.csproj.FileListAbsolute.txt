@@ -9,4 +9,5 @@ E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.cs
 E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.csproj.CopyComplete
 E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.dll
 E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.pdb
-E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.csprojAssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\netcoreapp3.1\MyProject.Mock.GeneratedMSBuildEditorConfig.editorconfig
