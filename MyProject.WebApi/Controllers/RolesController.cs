@@ -36,21 +36,23 @@ namespace MyProject.WebApi.Controllers
         {
             return _roleRepository.GetById(id);
         }
-
+        
         //[FromBody] string value
         // POST api/<RolesController>
         [HttpPost]
-        public Role Post(Role r)//update
+        public Role Post(int id, string name, string description)//add
         {
             // _emailManager.Send("Shiram33993@gmail.com");
-            return _roleRepository.Update(r);
+            return _roleRepository.Add(id, name, description);
+            
         }
+
         //int id, [FromBody] string value
         // PUT api/<RolesController>/5
         [HttpPut("{id}")]
-        public Role Put(int id, string name, string description)//add
+        public Role Put(Role r)//update
         {
-            return _roleRepository.Add(id, name, description);
+            return _roleRepository.Update(r);
         }
 
         // DELETE api/<RolesController>/5

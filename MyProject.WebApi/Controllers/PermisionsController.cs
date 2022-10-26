@@ -30,19 +30,19 @@ namespace MyProject.WebApi.Controllers
         {
             return _permissionRepository.GetById(id);
         }
-
+     
         // POST api/<PermisionsController>
         [HttpPost]
-        public Permission Post(Permission r)//update
+        public Permission Post(int id, string name, string description)//
         {
-            return _permissionRepository.Update(r);
+            return _permissionRepository.Add(id, name, description);
         }
 
         // PUT api/<PermisionsController>/5
         [HttpPut("{id}")]
-        public Permission Put(int id, string name, string description)//add
+        public Permission Put(Permission r)//update
         {
-            return _permissionRepository.Add(id, name, description);
+            return _permissionRepository.Update(r);           
         }
 
         // DELETE api/<PermisionsController>/5

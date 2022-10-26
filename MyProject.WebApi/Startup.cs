@@ -20,6 +20,7 @@ namespace MyProject.WebApi
 {
     public class Startup
     {
+       
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -30,7 +31,15 @@ namespace MyProject.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            var MyOrigins = "_myOrigins";
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyOrigins,
+                                  policy =>
+                                  {
+                                      policy.WithOrigins("*");
+                                  });
+            });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -41,6 +50,7 @@ namespace MyProject.WebApi
             services.AddScoped<IContex, MockContext>();
             services.AddScoped<IPermissionRepository, PermmisionRepository>();
             services.AddScoped<IClaimRepository, ClaimRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,6 +66,8 @@ namespace MyProject.WebApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 

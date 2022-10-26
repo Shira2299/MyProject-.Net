@@ -31,19 +31,19 @@ namespace MyProject.WebApi.Controllers
         {
             return _claimRepository.GetById(id);    
         }
-
+       
         // POST api/<ClaimsController>
         [HttpPost]
-        public claim Post(claim c)//update
+        public claim Post(int id, int RoleId, int PermissionId)//add
         {
-            return _claimRepository.Update(c);
+            return _claimRepository.Add(id, RoleId, PermissionId);           
         }
 
         // PUT api/<ClaimsController>/5
         [HttpPut("{id}")]
-        public claim Put(int id, int RoleId, int PermissionId)//add
+        public claim Put(claim c)//update
         {
-            return _claimRepository.Add(id, RoleId, PermissionId);
+            return _claimRepository.Update(c);
         }
 
         // DELETE api/<ClaimsController>/5
