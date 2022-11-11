@@ -1,0 +1,5 @@
+F:\Full Stack\MyProject\MyProject.Services\obj\Debug\net6.0\MyProject.Services.csproj.AssemblyReference.cache
+F:\Full Stack\MyProject\MyProject.Services\obj\Debug\net6.0\MyProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\Full Stack\MyProject\MyProject.Services\obj\Debug\net6.0\MyProject.Services.AssemblyInfoInputs.cache
+F:\Full Stack\MyProject\MyProject.Services\obj\Debug\net6.0\MyProject.Services.AssemblyInfo.cs
+F:\Full Stack\MyProject\MyProject.Services\obj\Debug\net6.0\MyProject.Services.csproj.CoreCompileInputs.cache

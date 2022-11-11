@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "c2fAtxnKBVX+iGNrldfPeCAu0Km56LsMmvoCFNpAB6PHXxkMDR75+hu0G3LT/FDe0jePyEvCjklvQW1aOzjMfg==",
+  "dgSpecHash": "XDV2pVhQMAimz+jFj5nAucWAp1fVPY5AU6dHi/Tl9YIWtNRNOBb1Tf9gUIRHvT0DBXi99g846y4K9ofY9JLK3w==",
   "success": true,
-  "projectFilePath": "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
+  "projectFilePath": "F:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

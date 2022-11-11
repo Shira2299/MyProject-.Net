@@ -6,7 +6,7 @@ namespace MyProject.Repositoties.Repositories
 {
     public interface IContex
     {
-        List<Role> Roles {get; set;}
+        List<Role> Roles { get; set; }
         List<claim> Claims { get; set; }
         List<Permission> Permissions { get; set; }
     }

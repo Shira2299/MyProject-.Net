@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyProject.Repositoties;
 using MyProject.Repositoties.Interfaces;
+using MyProject.WebApi.Models;
 using System.Collections.Generic;
+using System.Reflection;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -40,9 +42,12 @@ namespace MyProject.WebApi.Controllers
 
         // PUT api/<PermisionsController>/5
         [HttpPut("{id}")]
-        public Permission Put(Permission r)//update
+        public void Put(int id,[FromBody] PermmisionModel model)//update
         {
-            return _permissionRepository.Update(r);           
+            var permission = _permissionRepository.GetById(id);
+            permission.Name = model.Name;
+            permission.Description = model.Description;
+            _permissionRepository.Update(permission);
         }
 
         // DELETE api/<PermisionsController>/5

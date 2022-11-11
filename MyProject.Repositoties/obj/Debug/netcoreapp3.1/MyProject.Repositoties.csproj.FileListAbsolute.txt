@@ -17,3 +17,13 @@ E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csproj.AssemblyReference.cache
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.GeneratedMSBuildEditorConfig.editorconfig
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.deps.json
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\netcoreapp3.1\MyProject.Repositoties.pdb
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csproj.AssemblyReference.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.GeneratedMSBuildEditorConfig.editorconfig
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.AssemblyInfoInputs.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.AssemblyInfo.cs
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.csproj.CoreCompileInputs.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\netcoreapp3.1\MyProject.Repositoties.pdb

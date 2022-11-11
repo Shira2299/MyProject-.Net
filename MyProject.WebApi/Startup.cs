@@ -20,24 +20,28 @@ namespace MyProject.WebApi
 {
     public class Startup
     {
-       
+         string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+        //private string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
-
+       
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var MyOrigins = "_myOrigins";
             services.AddCors(options =>
             {
-                options.AddPolicy(name: MyOrigins,
+                options.AddPolicy(name: MyAllowSpecificOrigins,
                                   policy =>
                                   {
-                                      policy.WithOrigins("*");
+                                      policy.WithOrigins("*")
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader();
                                   });
             });
             services.AddControllers();
@@ -45,11 +49,12 @@ namespace MyProject.WebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyProject.WebApi", Version = "v1" });
             });
+            
             services.AddScoped<IEmailManager, EmailManager>();
-            services.AddScoped<IRoleRepository, RoleRepository>();
+            // services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IContex, MockContext>();
-            services.AddScoped<IPermissionRepository, PermmisionRepository>();
-            services.AddScoped<IClaimRepository, ClaimRepository>();
+            //services.AddScoped<IPermissionRepository, PermmisionRepository>();
+            //services.AddScoped<IClaimRepository, ClaimRepository>();
 
         }
 
@@ -67,7 +72,7 @@ namespace MyProject.WebApi
 
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 
@@ -77,4 +82,6 @@ namespace MyProject.WebApi
             });
         }
     }
+
+   
 }

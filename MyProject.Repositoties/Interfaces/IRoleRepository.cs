@@ -6,14 +6,15 @@ namespace MyProject.Repositoties.Interface
 {
   public  interface IRoleRepository
     {
-        public List<Role> GetAll();
+        //בממשק הברירת מחדל שלו היא public לממשק לא מגדירים הרשאת גישה היא
+         List<Role> GetAll();
 
-        public Role GetById(int id);
+         Role GetById(int id);
 
-        public Role Add(int id,string name,string description);
+         Role Add(int id,string name,string description);
 
-        public Role Update(Role r);
+         Role Update(Role r);
 
-        public void Delete(int id);
+         void Delete(int id);
     }
 }

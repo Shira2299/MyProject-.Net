@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {}
+    "F:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {}
   },
   "projects": {
-    "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
+    "F:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
+        "projectUniqueName": "F:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
         "projectName": "MyProject.Mock",
-        "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
+        "projectPath": "F:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Full Stack\\MyProject\\MyProject.Mock\\obj\\",
+        "outputPath": "F:\\Full Stack\\MyProject\\MyProject.Mock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
-                "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj"
+              "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
+                "projectPath": "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj"
               }
             }
           }
@@ -53,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,18 +63,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
+    "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
+        "projectUniqueName": "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
         "projectName": "MyProject.Repositoties",
-        "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
+        "projectPath": "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\obj\\",
+        "outputPath": "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,13 +106,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -120,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

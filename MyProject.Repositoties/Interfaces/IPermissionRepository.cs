@@ -6,14 +6,14 @@ namespace MyProject.Repositoties.Interfaces
 {
   public  interface IPermissionRepository
     {
-        public List<Permission> GetAll();
+         List<Permission> GetAll();
 
-        public Permission GetById(int id);
+         Permission GetById(int id);
 
-        public Permission Add(int id, string name, string description);
+         Permission Add(int id, string name, string description);
 
-        public Permission Update(Permission r);
+         Permission Update(Permission r);
 
-        public void Delete(int id);
+         void Delete(int id);
     }
 }

@@ -1,0 +1,15 @@
+F:\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.deps.json
+F:\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.dll
+F:\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.pdb
+F:\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Repositoties.dll
+F:\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Repositoties.pdb
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.AssemblyReference.cache
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.AssemblyInfoInputs.cache
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.AssemblyInfo.cs
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.CoreCompileInputs.cache
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.CopyComplete
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.dll
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\refint\MyProject.Common.dll
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.pdb
+F:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\ref\MyProject.Common.dll

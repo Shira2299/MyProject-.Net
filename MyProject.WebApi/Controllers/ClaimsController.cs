@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyProject.Repositoties;
 using MyProject.Repositoties.Interfaces;
+using MyProject.WebApi.Models;
 using System.Collections.Generic;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -41,9 +42,13 @@ namespace MyProject.WebApi.Controllers
 
         // PUT api/<ClaimsController>/5
         [HttpPut("{id}")]
-        public claim Put(claim c)//update
+        public void Put(int id, [FromBody] ClaimModel model)//update
         {
-            return _claimRepository.Update(c);
+            var claim = _claimRepository.GetById(id);
+            claim.PermissionId = model.PermissionId;
+            claim.epolicy = model.epolicy;
+            claim.RoleId = model.RoleId;
+            _claimRepository.Update(claim);
         }
 
         // DELETE api/<ClaimsController>/5

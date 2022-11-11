@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyProject.Repositoties;
 using MyProject.Repositoties.Interface;
+using MyProject.WebApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,16 +44,18 @@ namespace MyProject.WebApi.Controllers
         public Role Post(int id, string name, string description)//add
         {
             // _emailManager.Send("Shiram33993@gmail.com");
-            return _roleRepository.Add(id, name, description);
-            
+            return _roleRepository.Add(id, name, description);           
         }
 
         //int id, [FromBody] string value
         // PUT api/<RolesController>/5
         [HttpPut("{id}")]
-        public Role Put(Role r)//update
+        public void Put(int id, [FromBody]RoleModel model)//update
         {
-            return _roleRepository.Update(r);
+            var role=_roleRepository.GetById(id);
+            role.Name = model.Name;
+            role.Description = model.Description;
+            _roleRepository.Update(role);
         }
 
         // DELETE api/<RolesController>/5

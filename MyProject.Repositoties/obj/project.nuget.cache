@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1LqxedpLwRSfOO6BRBIeirFrdI0PFDNfZkM5qXzIqJuywBeU7SXFVrp+8le26szi0KxILECb8Bn3Ac9tNgfoDg==",
+  "dgSpecHash": "WtIKQGPUbcOG9G1WEOF4coDftc+qXGtJYIkEhheDreJFS+/fYDnzg1DO6BU9iRO9IMANT8KKs8LrFhau8k9y/A==",
   "success": true,
-  "projectFilePath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
