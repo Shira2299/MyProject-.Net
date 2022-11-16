@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MyProject.Contex;
 using MyProject.Mock;
 using MyProject.Repositoties.Interface;
 using MyProject.Repositoties.Interfaces;
@@ -52,7 +53,8 @@ namespace MyProject.WebApi
             
             services.AddScoped<IEmailManager, EmailManager>();
             // services.AddScoped<IRoleRepository, RoleRepository>();
-            services.AddScoped<IContex, MockContext>();
+            //services.AddScoped<IContex, MockContext>();
+            services.AddDbContext<IContex, MyDbContex>();
             //services.AddScoped<IPermissionRepository, PermmisionRepository>();
             //services.AddScoped<IClaimRepository, ClaimRepository>();
 

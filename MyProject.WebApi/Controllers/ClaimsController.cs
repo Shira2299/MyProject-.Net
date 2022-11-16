@@ -21,21 +21,21 @@ namespace MyProject.WebApi.Controllers
 
         // GET: api/<ClaimsController>
         [HttpGet]
-        public IEnumerable<claim> Get()
+        public IEnumerable<Claim> Get()
         {
             return _claimRepository.GetAll();
         }
 
         // GET api/<ClaimsController>/5
         [HttpGet("{id}")]
-        public claim Get(int id)
+        public Claim Get(int id)
         {
             return _claimRepository.GetById(id);    
         }
        
         // POST api/<ClaimsController>
         [HttpPost]
-        public claim Post(int id, int RoleId, int PermissionId)//add
+        public Claim Post(int id, int RoleId, int PermissionId)//add
         {
             return _claimRepository.Add(id, RoleId, PermissionId);           
         }
@@ -45,9 +45,9 @@ namespace MyProject.WebApi.Controllers
         public void Put(int id, [FromBody] ClaimModel model)//update
         {
             var claim = _claimRepository.GetById(id);
-            claim.PermissionId = model.PermissionId;
-            claim.epolicy = model.epolicy;
             claim.RoleId = model.RoleId;
+            claim.PermissionId = model.PermissionId;
+            claim.epolicy = model.epolicy;       
             _claimRepository.Update(claim);
         }
 

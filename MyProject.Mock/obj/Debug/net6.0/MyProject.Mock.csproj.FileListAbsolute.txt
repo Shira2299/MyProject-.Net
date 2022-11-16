@@ -1,0 +1,15 @@
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\net6.0\MyProject.Mock.deps.json
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\net6.0\MyProject.Mock.dll
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\net6.0\MyProject.Mock.pdb
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\net6.0\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.Mock\bin\Debug\net6.0\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.GeneratedMSBuildEditorConfig.editorconfig
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.AssemblyInfoInputs.cache
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.AssemblyInfo.cs
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.csproj.CoreCompileInputs.cache
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.csproj.CopyComplete
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.dll
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\refint\MyProject.Mock.dll
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\MyProject.Mock.pdb
+E:\Full Stack\MyProject\MyProject.Mock\obj\Debug\net6.0\ref\MyProject.Mock.dll

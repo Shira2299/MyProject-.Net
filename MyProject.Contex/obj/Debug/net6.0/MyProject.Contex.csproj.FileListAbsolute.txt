@@ -1,0 +1,17 @@
+E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.deps.json
+E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.runtimeconfig.json
+E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.dll
+E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.pdb
+E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.GeneratedMSBuildEditorConfig.editorconfig
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfoInputs.cache
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfo.cs
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CoreCompileInputs.cache
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CopyComplete
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.dll
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\refint\MyProject.Contex.dll
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.pdb
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.genruntimeconfig.cache
+E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\ref\MyProject.Contex.dll

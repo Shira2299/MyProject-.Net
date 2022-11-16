@@ -31,4 +31,6 @@ E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.Co
 E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.genruntimeconfig.cache
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.Mock.dll
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\MyProject.Mock.pdb
-E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.csprojAssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\netcoreapp3.1\MyProject.ConsoleUp.GeneratedMSBuildEditorConfig.editorconfig

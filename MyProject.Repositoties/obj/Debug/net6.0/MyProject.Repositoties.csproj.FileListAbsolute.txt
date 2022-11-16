@@ -1,0 +1,12 @@
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositoties.deps.json
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.GeneratedMSBuildEditorConfig.editorconfig
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.AssemblyInfoInputs.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.AssemblyInfo.cs
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.csproj.CoreCompileInputs.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\refint\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\ref\MyProject.Repositoties.dll

@@ -1,6 +1,7 @@
 ﻿using MyProject.Repositoties.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
 using System.Text;
 
@@ -13,31 +14,31 @@ namespace MyProject.Repositoties.Repositories
         {
                 _contex = contex;
         }
-        public claim Add(int id, int RoleId, int PermissionId)
+        public Claim Add(int id, int RoleId, int PermissionId)
         {
-            var newClaim=new claim { Id=id, RoleId=RoleId, PermissionId=PermissionId };
+            var newClaim=new Claim { Id=id/*, RoleId=RoleId, PermissionId=PermissionId*/ };
             _contex.Claims.Add(newClaim);
             return newClaim;
         }
 
         public void Delete(int id)
         {
-            var deleteClaim = _contex.Claims.Find(r => r.Id == id);
+            var deleteClaim = _contex.Claims.Find(id);
             if(deleteClaim != null)
                 _contex.Claims.Remove(deleteClaim);
         }
 
-        public List<claim> GetAll()
+        public List<Claim> GetAll()
         {
-            return _contex.Claims;
+            return _contex.Claims.ToList();
         }
 
-        public claim GetById(int id)
+        public Claim GetById(int id)
         {
-            return _contex.Claims.Find(r=>r.Id==id);
+            return _contex.Claims.Find(id);
         }
 
-        public claim Update(claim c)
+        public Claim Update(Claim c)
         {
             var updateClaim = GetById(c.Id);
             updateClaim.RoleId = c.RoleId;

@@ -44,7 +44,7 @@ namespace MyProject.Services.Services
       //  public ClaimDTO Update(ClaimDTO c) => _mapper.Map<ClaimDTO>(_claimRepository.Update(_mapper.Map<Claim>(c)));
       public ClaimDTO Update(ClaimDTO c)
         {
-            return _mapper.Map<ClaimDTO>(_claimRepository.Update(_mapper.Map<claim>(c)));
+            return _mapper.Map<ClaimDTO>(_claimRepository.Update(_mapper.Map<Repositoties.Claim>(c)));
         }
     }
 }

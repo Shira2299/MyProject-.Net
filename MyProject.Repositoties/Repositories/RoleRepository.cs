@@ -1,6 +1,7 @@
 ﻿using MyProject.Repositoties.Interface;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MyProject.Repositoties.Repositories
@@ -22,20 +23,22 @@ namespace MyProject.Repositoties.Repositories
 
         public void Delete(int id)
         {
-            var deleteRole = _context.Roles.Find(r => r.Id == id);
+            var deleteRole = _context.Roles.Find(id);
             if (deleteRole != null)
                 _context.Roles.Remove(deleteRole);
         }     
 
         public Role GetById(int id)
         {
-            return _context.Roles.Find(r => r.Id == id);
+           // return _context.Roles.First(r => r.Id == id);
+            return _context.Roles.Find(id);
         }
 
         public Role Update(Role r)
         {
             //var newRole = GetById(role.id);לשאול מה עדיף
-            var updateRole = _context.Roles.Find(r => r.Id == r.Id);
+            //check if is possible to use with First
+            var updateRole = _context.Roles.First(r => r.Id == r.Id);
             updateRole.Name = r.Name;
             updateRole.Description = r.Description;
             return updateRole;
@@ -43,7 +46,7 @@ namespace MyProject.Repositoties.Repositories
        
         public List<Role> GetAll()
         {
-            return _context.Roles;
+            return _context.Roles.ToList();
         }
     }
 }

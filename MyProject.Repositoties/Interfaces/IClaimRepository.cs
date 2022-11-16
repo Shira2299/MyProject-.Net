@@ -7,13 +7,13 @@ namespace MyProject.Repositoties.Interfaces
 {
   public  interface IClaimRepository
     {
-         List<claim> GetAll();
+         List<Claim> GetAll();
 
-         claim GetById(int id);
+         Claim GetById(int id);
 
-         claim Add(int id, int RoleId, int PermissionId);
+         Claim Add(int id, int RoleId, int PermissionId);
 
-         claim Update(claim c);
+         Claim Update(Claim c);
 
          void Delete(int id);
     }
