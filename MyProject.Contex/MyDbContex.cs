@@ -7,11 +7,7 @@ using System.Reflection.Metadata;
 namespace MyProject.Contex
 {
     public class MyDbContex : DbContext, IContex
-    {
-        //public List<Role> Roles { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        //public List<Claim> Claims { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        //public List<Permission> Permissions { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
+    {       
         public DbSet<Role> Roles { get; set; }
 
         public DbSet<Permission> Permissions { get; set; }
