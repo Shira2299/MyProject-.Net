@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MyProject.Common.DTOs;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Interface;
+using MyProject.Repositories;
+using MyProject.Repositories.Interface;
 using MyProject.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,7 @@ namespace MyProject.Services.Services
     public class RoleServices : IRoleService
     {
         private readonly IRoleRepository _roleRepository;
+
         private readonly IMapper _mapper;
 
         public RoleServices(IRoleRepository roleRepository, IMapper mapper)
@@ -22,32 +23,30 @@ namespace MyProject.Services.Services
             _mapper = mapper;
         }
 
-        public RoleDTO Add(int id, string name, string description)
+        public async Task<RoleDTO> AddAsync(string name, string description)
         {
-           return  _mapper.Map<RoleDTO>(_roleRepository.Add(id, name, description));
+           return  _mapper.Map<RoleDTO>(await _roleRepository.AddAsync(name, description));
         }
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-           _roleRepository.Delete(id);
+           await _roleRepository.DeleteAsync(id);
         }
 
-        public RoleDTO GetById(int id)
+        public async Task<RoleDTO> GetByIdAsync(int id)
         {
-            return _mapper.Map<RoleDTO>(_roleRepository.GetById(id));
-            //or
-            //var role = _roleRepository.GetById(id);
-            // return _mapper.Map<RoleDTO>(role);
+            var role = await _roleRepository.GetByIdAsync(id);
+            return  _mapper.Map<RoleDTO>( role);                  
         }
 
-        public List<RoleDTO> GetList()
+        public async Task<List<RoleDTO>> GetListAsync()
         {
-            return _mapper.Map<List<RoleDTO>>(_roleRepository.GetAll());
+            return _mapper.Map<List<RoleDTO>>(await _roleRepository.GetAllAsync());
         }
 
-        public RoleDTO Update(RoleDTO r)
+        public async Task<RoleDTO> UpdateAsync(RoleDTO r)
         {
-            return _mapper.Map<RoleDTO>(_roleRepository.Update(_mapper.Map<Role>(r)));
+            return _mapper.Map<RoleDTO>(await _roleRepository.UpdateAsync(_mapper.Map<Role>(r)));
         }
     }
 }

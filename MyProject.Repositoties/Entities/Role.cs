@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyProject.Repositoties
+namespace MyProject.Repositories
 {
     public class Role
     {     

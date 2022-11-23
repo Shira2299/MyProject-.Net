@@ -1,10 +1,12 @@
-﻿using MyProject.Repositoties.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using MyProject.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace MyProject.Repositoties.Repositories
+namespace MyProject.Repositories.Repositories
 {
     public class PermmisionRepository : IPermissionRepository
     {
@@ -14,35 +16,39 @@ namespace MyProject.Repositoties.Repositories
         {
             _context = context;
         }
-        public Permission Add(int id, string name, string description)
+        public async Task<Permission> AddAsync(string name, string description)
         {
-            var newPermission = new Permission { Id = id, Name = name, Description = description };
-            _context.Permissions.Add(newPermission);
-            return newPermission;
+            var newPermission = new Permission { Name = name, Description = description };
+           await _context.Permissions.AddAsync(newPermission);
+            return newPermission;    
         }
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            var deletePermission = _context.Permissions.Find(id);
-            if (deletePermission != null)
-                _context.Permissions.Remove(deletePermission);
+            var deletePermmision = await GetByIdAsync(id);
+            if (deletePermmision != null)
+            {
+                _context.Permissions.Remove(deletePermmision);
+                await _context.SaveChangesAsync();
+            }
         }      
-        public Permission GetById(int id)
+        public async Task<Permission> GetByIdAsync(int id)
         {
-            return _context.Permissions.Find(id);
+            return await _context.Permissions.FindAsync(id);
         }
 
-        public Permission Update(Permission r)
+        public async Task<Permission> UpdateAsync(Permission p)
         {
-            var updatePermission = _context.Permissions.First(r => r.Id == r.Id);
-            updatePermission.Name = r.Name;
-            updatePermission.Description = r.Description;
+            var updatePermission = await _context.Permissions.FindAsync(p.Id);
+            updatePermission.Name = p.Name;
+            updatePermission.Description = p.Description;
             return updatePermission;
+
         }
 
-        public List<Permission> GetAll()
+        public async Task<List<Permission>> GetAllAsync()
         {
-            return _context.Permissions.ToList();
+            return await _context.Permissions.ToListAsync();
         }
     }
 }

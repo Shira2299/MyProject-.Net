@@ -1,5 +1,5 @@
 ﻿using MyProject.Common.DTOs;
-using MyProject.Repositoties;
+using MyProject.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,14 +10,14 @@ namespace MyProject.Services.Interfaces
 {
     public interface IPermmisionServices
     {
-         List<PermissionDTO> GetAll();
+        Task<List<PermissionDTO>> GetListAsync();
 
-        PermissionDTO GetById(int id);
+        Task<PermissionDTO> GetByIdAsync(int id);
 
-        PermissionDTO Add(int id, string name, string description);
+        Task<PermissionDTO> AddAsync(string name, string description);
 
-        PermissionDTO Update(PermissionDTO r);
+        Task<PermissionDTO> UpdateAsync(PermissionDTO r);
 
-         void Delete(int id);
+        Task DeleteAsync(int id);
     }
 }

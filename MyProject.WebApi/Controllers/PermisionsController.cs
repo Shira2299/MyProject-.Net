@@ -1,9 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Interfaces;
+using MyProject.Common.DTOs;
+using MyProject.Repositories;
+using MyProject.Repositories.Interfaces;
+using MyProject.Services.Interfaces;
+using MyProject.Services.Services;
 using MyProject.WebApi.Models;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -13,48 +17,49 @@ namespace MyProject.WebApi.Controllers
     [ApiController]
     public class PermisionsController : ControllerBase
     {
-        private readonly IPermissionRepository _permissionRepository;
-        public PermisionsController(IPermissionRepository permissionRepository)
+        private readonly IPermmisionServices _permissionService;
+        public PermisionsController(IPermmisionServices permissionService)
         {
-            _permissionRepository = permissionRepository;
+            _permissionService = permissionService;
         }
 
         // GET: api/<PermisionsController>
         [HttpGet]
-        public IEnumerable<Permission> Get()
+        public async Task<List<PermissionDTO>> Get()
         {
-            return _permissionRepository.GetAll();
+            return await _permissionService.GetListAsync();
         }
 
         // GET api/<PermisionsController>/5
         [HttpGet("{id}")]
-        public Permission Get(int id)
+        public async Task<PermissionDTO> Get(int id)
         {
-            return _permissionRepository.GetById(id);
+            return await _permissionService.GetByIdAsync(id);
         }
      
         // POST api/<PermisionsController>
         [HttpPost]
-        public Permission Post(int id, string name, string description)//
+        public async Task<int> Post([FromBody] PermmisionModel p)//add
         {
-            return _permissionRepository.Add(id, name, description);
+            var newPermmision = await _permissionService.AddAsync(p.Name, p.Description);
+            return newPermmision.Id;
         }
 
         // PUT api/<PermisionsController>/5
         [HttpPut("{id}")]
-        public void Put(int id,[FromBody] PermmisionModel model)//update
+        public async Task Put(int id,[FromBody] PermmisionModel model)//update
         {
-            var permission = _permissionRepository.GetById(id);
+            var permission = await _permissionService.GetByIdAsync(id);
             permission.Name = model.Name;
             permission.Description = model.Description;
-            _permissionRepository.Update(permission);
+            await _permissionService.UpdateAsync(permission);
         }
 
         // DELETE api/<PermisionsController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async void Delete(int id)
         {
-            _permissionRepository.Delete(id);
+          await  _permissionService.DeleteAsync(id);
         }
     }
 }

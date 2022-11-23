@@ -1,5 +1,5 @@
 ﻿using MyProject.Common.DTOs;
-using MyProject.Repositoties;
+using MyProject.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +10,10 @@ namespace MyProject.Services.Interfaces
     public interface IRoleService
     {
         //why RoleDTO and not Role?
-        List<RoleDTO> GetList();
-        RoleDTO GetById(int id);
-        RoleDTO Add(int id, string name, string description);
-        RoleDTO Update(RoleDTO r);
-        void Delete(int id);
+        Task<List<RoleDTO>> GetListAsync();
+        Task<RoleDTO> GetByIdAsync(int id);
+        Task<RoleDTO> AddAsync(string name, string description);
+        Task<RoleDTO> UpdateAsync(RoleDTO r);
+        Task DeleteAsync(int id);
     }
 }

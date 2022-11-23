@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.Repositoties", "MyProject.Repositoties\MyProject.Repositoties.csproj", "{9784AC64-2DD3-4B56-AC89-4A808E08A4D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.Repositories", "MyProject.Repositoties\MyProject.Repositories.csproj", "{9784AC64-2DD3-4B56-AC89-4A808E08A4D9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.ConsoleUp", "MyProject.ConsoleUp\MyProject.ConsoleUp.csproj", "{C237821D-F58A-4E96-8EC8-1620D6C0F703}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.Services", "MyPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.Common", "MyProject.Common\MyProject.Common.csproj", "{32951B2C-DC96-415F-840E-7FCA186CA059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Contex", "MyProject.Contex\MyProject.Contex.csproj", "{E6DBBF77-DC4F-486F-A6B1-3D220142428A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.Contex", "MyProject.Contex\MyProject.Contex.csproj", "{E6DBBF77-DC4F-486F-A6B1-3D220142428A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

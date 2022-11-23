@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MyProject.Common.DTOs;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Interfaces;
+using MyProject.Repositories;
+using MyProject.Repositories.Interfaces;
 using MyProject.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -21,30 +21,29 @@ namespace MyProject.Services.Services
             _claimRepository=claimRepository;
             _mapper=mapper;
         }
-        public ClaimDTO Add(int id, int RoleId, int PermissionId)
+        public async Task<ClaimDTO> AddAsync(Role role, Permission permission,Epolicy policy)
         {
-            return _mapper.Map<ClaimDTO>(_claimRepository.Add(id, RoleId, PermissionId));
+            return _mapper.Map<ClaimDTO>(await _claimRepository.AddAsync(role, permission, policy));
         }
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            _claimRepository.Delete(id);
+           await _claimRepository.DeleteAsync(id);
         }
 
-        public ClaimDTO GetById(int id)
+        public async Task<ClaimDTO> GetByIdAsync(int id)
         {
-            return _mapper.Map<ClaimDTO>(_claimRepository.GetById(id));
+            return _mapper.Map<ClaimDTO>(await _claimRepository.GetByIdAsync(id));
         }
 
-        public List<ClaimDTO> GetList()
+        public async Task<List<ClaimDTO>> GetListAsync()
         {
-            return _mapper.Map<List<ClaimDTO>>(_claimRepository.GetAll());
+            return _mapper.Map<List<ClaimDTO>>(await _claimRepository.GetAllAsync());
         }
-        //לבדוק אם זה נכון גם בצורה הזאת
-      //  public ClaimDTO Update(ClaimDTO c) => _mapper.Map<ClaimDTO>(_claimRepository.Update(_mapper.Map<Claim>(c)));
-      public ClaimDTO Update(ClaimDTO c)
+
+      public async Task<ClaimDTO> UpdateAsync(ClaimDTO c)
         {
-            return _mapper.Map<ClaimDTO>(_claimRepository.Update(_mapper.Map<Repositoties.Claim>(c)));
+            return _mapper.Map<ClaimDTO>(await _claimRepository.UpdateAsync(_mapper.Map<Repositories.Claim>(c)));
         }
     }
 }

@@ -1,11 +1,13 @@
-﻿using MyProject.Repositoties.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using MyProject.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace MyProject.Repositoties.Repositories
+namespace MyProject.Repositories.Repositories
 {
     public class ClaimRepository : IClaimRepository
     {
@@ -14,36 +16,40 @@ namespace MyProject.Repositoties.Repositories
         {
                 _contex = contex;
         }
-        public Claim Add(int id, int RoleId, int PermissionId)
+
+        public async Task<Claim> AddAsync(Role role, Permission permission, Epolicy policy)
         {
-            var newClaim=new Claim { Id=id/*, RoleId=RoleId, PermissionId=PermissionId*/ };
-            _contex.Claims.Add(newClaim);
+            Claim newClaim = new Claim { /*Role=role,Permission=permission ,*/Policy=policy };
+            await _contex.Claims.AddAsync(newClaim);
             return newClaim;
         }
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            var deleteClaim = _contex.Claims.Find(id);
-            if(deleteClaim != null)
+            var deleteClaim = await GetByIdAsync(id);
+            if (deleteClaim != null)
+            {
                 _contex.Claims.Remove(deleteClaim);
+                await _contex.SaveChangesAsync();
+            }
         }
 
-        public List<Claim> GetAll()
+        public async Task<List<Claim>> GetAllAsync()
         {
-            return _contex.Claims.ToList();
+            return await _contex.Claims.ToListAsync();
         }
 
-        public Claim GetById(int id)
+        public async Task<Claim> GetByIdAsync(int id)
         {
-            return _contex.Claims.Find(id);
+            return await _contex.Claims.FindAsync(id);
         }
 
-        public Claim Update(Claim c)
+        public async Task<Claim> UpdateAsync(Claim c)
         {
-            var updateClaim = GetById(c.Id);
-            updateClaim.RoleId = c.RoleId;
-            updateClaim.PermissionId = c.PermissionId;
-            return updateClaim;
+            var updateClaim = await _contex.Claims.FindAsync(c.Id);
+            updateClaim.Role = c.Role;
+            updateClaim.Permission = c.Permission;
+            return updateClaim;      
         }
 
        

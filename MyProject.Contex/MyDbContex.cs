@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.Extensions.Options;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Repositories;
+using MyProject.Repositories;
 using System.Reflection.Metadata;
-
+//namespace EFModeling.EntityProperties.DataAnnotations;
 namespace MyProject.Contex
 {
     public class MyDbContex : DbContext, IContex

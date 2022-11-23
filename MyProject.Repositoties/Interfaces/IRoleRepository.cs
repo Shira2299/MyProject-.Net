@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace MyProject.Repositoties.Interface
+namespace MyProject.Repositories.Interface
 {
   public  interface IRoleRepository
     {
         //בממשק הברירת מחדל שלו היא public לממשק לא מגדירים הרשאת גישה היא
-         List<Role> GetAll();
+         Task<List<Role>> GetAllAsync();
 
-         Role GetById(int id);
+         Task<Role> GetByIdAsync(int id);
 
-         Role Add(int id,string name,string description);
+         Task<Role> AddAsync(string name,string description);
 
-         Role Update(Role r);
+         Task<Role> UpdateAsync(Role r);
 
-         void Delete(int id);
+         Task DeleteAsync(int id);
     }
 }

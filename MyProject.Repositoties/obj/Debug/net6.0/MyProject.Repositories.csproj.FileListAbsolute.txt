@@ -1,0 +1,48 @@
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.deps.json
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.dll
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.pdb
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.AssemblyInfo.cs
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.dll
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\refint\MyProject.Repositories.dll
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.pdb
+C:\Users\User\Desktop\MyProject\MyProject.Repositoties\obj\Debug\net6.0\ref\MyProject.Repositories.dll
+F:\try\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.deps.json
+F:\try\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.dll
+F:\try\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.pdb
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.csproj.AssemblyReference.cache
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.AssemblyInfoInputs.cache
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.AssemblyInfo.cs
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.csproj.CoreCompileInputs.cache
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.dll
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\refint\MyProject.Repositories.dll
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.pdb
+F:\try\MyProject\MyProject.Repositoties\obj\Debug\net6.0\ref\MyProject.Repositories.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.deps.json
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.pdb
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.csproj.AssemblyReference.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.AssemblyInfoInputs.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.AssemblyInfo.cs
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.csproj.CoreCompileInputs.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\refint\MyProject.Repositories.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.pdb
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\ref\MyProject.Repositories.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.deps.json
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositories.pdb
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.AssemblyInfoInputs.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.AssemblyInfo.cs
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.csproj.CoreCompileInputs.cache
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\refint\MyProject.Repositories.dll
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositories.pdb
+E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\ref\MyProject.Repositories.dll

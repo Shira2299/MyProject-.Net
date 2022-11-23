@@ -251,7 +251,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MyProject.Repositoties": "1.0.0"
+          "MyProject.Repositories": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MyProject.Mock.dll": {}
@@ -260,18 +260,18 @@
           "bin/placeholder/MyProject.Mock.dll": {}
         }
       },
-      "MyProject.Repositoties/1.0.0": {
+      "MyProject.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.11",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection": "6.0.1"
         },
         "compile": {
-          "bin/placeholder/MyProject.Repositoties.dll": {}
+          "bin/placeholder/MyProject.Repositories.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MyProject.Repositoties.dll": {}
+          "bin/placeholder/MyProject.Repositories.dll": {}
         }
       }
     }
@@ -605,36 +605,36 @@
       "path": "../MyProject.Mock/MyProject.Mock.csproj",
       "msbuildProject": "../MyProject.Mock/MyProject.Mock.csproj"
     },
-    "MyProject.Repositoties/1.0.0": {
+    "MyProject.Repositories/1.0.0": {
       "type": "project",
-      "path": "../MyProject.Repositoties/MyProject.Repositoties.csproj",
-      "msbuildProject": "../MyProject.Repositoties/MyProject.Repositoties.csproj"
+      "path": "../MyProject.Repositoties/MyProject.Repositories.csproj",
+      "msbuildProject": "../MyProject.Repositoties/MyProject.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "MyProject.Mock >= 1.0.0",
-      "MyProject.Repositoties >= 1.0.0"
+      "MyProject.Repositories >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\student\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
+      "projectUniqueName": "F:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
       "projectName": "MyProject.ConsoleUp",
-      "projectPath": "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
-      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "E:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\obj\\",
+      "projectPath": "F:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\MyProject.ConsoleUp.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "F:\\Full Stack\\MyProject\\MyProject.ConsoleUp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -643,18 +643,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
-              "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj"
+            "F:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj": {
+              "projectPath": "F:\\Full Stack\\MyProject\\MyProject.Mock\\MyProject.Mock.csproj"
             },
-            "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj": {
-              "projectPath": "E:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositoties.csproj"
+            "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositories.csproj": {
+              "projectPath": "F:\\Full Stack\\MyProject\\MyProject.Repositoties\\MyProject.Repositories.csproj"
             }
           }
         }
@@ -684,7 +683,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

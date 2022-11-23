@@ -1,4 +1,5 @@
 ﻿using MyProject.Common.DTOs;
+using MyProject.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +10,14 @@ namespace MyProject.Services.Interfaces
 {
     public interface IClaimServices
     {
-        List<ClaimDTO> GetList();
+        Task<List<ClaimDTO>> GetListAsync();
 
-        ClaimDTO GetById(int id);
+        Task<ClaimDTO> GetByIdAsync(int id);
 
-        ClaimDTO Add(int id, int RoleId, int PermissionId);
+        Task<ClaimDTO> AddAsync(Role role, Permission permission, Epolicy policy);
 
-        ClaimDTO Update(ClaimDTO c);
+        Task<ClaimDTO> UpdateAsync(ClaimDTO c);
 
-         void Delete(int id);
+        Task DeleteAsync(int id);
     }
 }

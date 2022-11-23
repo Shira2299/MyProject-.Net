@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Interface;
+using MyProject.Common.DTOs;
+using MyProject.Repositories;
+using MyProject.Repositories.Interface;
+using MyProject.Services.Interfaces;
 using MyProject.WebApi.Models;
 using System;
 using System.Collections.Generic;
@@ -15,54 +17,56 @@ namespace MyProject.WebApi.Controllers
     [ApiController]
     public class RolesController : ControllerBase
     {
-        private readonly IEmailManager _emailManager;
-        private readonly IRoleRepository _roleRepository;
+        // private readonly IEmailManager _emailManager;
+        private readonly IRoleService _roleService;
 
-        public RolesController(IEmailManager emailManager, IRoleRepository roleRepository)
+        //public RolesController(IEmailManager emailManager, IRoleRepository roleRepository)
+        //{
+        //    _emailManager = emailManager;
+        //    _roleRepository = roleRepository;
+        //}
+        public RolesController(IRoleService roleService)
         {
-            _emailManager = emailManager;
-            _roleRepository = roleRepository;
+            _roleService = roleService;
         }
 
         // GET: api/<RolesController>
         [HttpGet]
-        public IEnumerable<Role> Get()
+        public async Task<List<RoleDTO>> Get()
         {
-            return _roleRepository.GetAll();
+            return await _roleService.GetListAsync();
         }
 
         // GET api/<RolesController>/5
         [HttpGet("{id}")]
-        public Role Get(int id)
+        public async Task<RoleDTO> Get(int id)
         {
-            return _roleRepository.GetById(id);
+            return await _roleService.GetByIdAsync(id);
         }
         
         //[FromBody] string value
         // POST api/<RolesController>
         [HttpPost]
-        public Role Post(int id, string name, string description)//add
+        public async Task<int> Post([FromBody] RoleModel r)//add
         {
             // _emailManager.Send("Shiram33993@gmail.com");
-            return _roleRepository.Add(id, name, description);           
+         var newRole= await _roleService.AddAsync(r.Name,r.Description);     
+            return newRole.Id;
         }
 
         //int id, [FromBody] string value
         // PUT api/<RolesController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]RoleModel model)//update
+        public async Task Put(int id, [FromBody]RoleModel model)//update
         {
-            var role=_roleRepository.GetById(id);
-            role.Name = model.Name;
-            role.Description = model.Description;
-            _roleRepository.Update(role);
+            await _roleService.UpdateAsync(new RoleDTO { Id = id, Name = model.Name, Title = model.Description });          
         }
 
         // DELETE api/<RolesController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async void Delete(int id)
         {
-            _roleRepository.Delete(id);
+           await _roleService.DeleteAsync(id);
         }
     }
 }

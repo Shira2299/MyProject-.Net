@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MyProject.Common.DTOs;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Interfaces;
+using MyProject.Repositories;
+using MyProject.Repositories.Interfaces;
 using MyProject.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -20,29 +20,29 @@ namespace MyProject.Services.Services
             _permissionRepository=permissionRepository;
             _mapper=mapper;
         }
-        public PermissionDTO Add(int id, string name, string description)
+        public async Task<PermissionDTO> AddAsync(string name, string description)
         {
-            return _mapper.Map<PermissionDTO>(_permissionRepository.Add(id, name, description));
+            return _mapper.Map<PermissionDTO>(await _permissionRepository.AddAsync(name, description));
         }
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            _permissionRepository.Delete(id);
+          await  _permissionRepository.DeleteAsync(id);
         }
 
-        public List<PermissionDTO> GetAll()
+        public async Task<PermissionDTO> GetByIdAsync(int id)
         {
-            return _mapper.Map<List<PermissionDTO>>(_permissionRepository.GetAll());
+            return _mapper.Map<PermissionDTO>(await _permissionRepository.GetByIdAsync(id));
         }
 
-        public PermissionDTO GetById(int id)
+        public async Task<List<PermissionDTO>> GetListAsync()
         {
-            return _mapper.Map<PermissionDTO>(_permissionRepository.GetById(id));
+            return _mapper.Map<List<PermissionDTO>>(await _permissionRepository.GetAllAsync());
         }
 
-        public PermissionDTO Update(PermissionDTO r)
+        public async Task<PermissionDTO> UpdateAsync(PermissionDTO r)
         {
-            return _mapper.Map<PermissionDTO>(_permissionRepository.Update(_mapper.Map<Permission>(r)));
+            return _mapper.Map<PermissionDTO>(await _permissionRepository.UpdateAsync(_mapper.Map<Permission>(r)));
         }
     }
 }

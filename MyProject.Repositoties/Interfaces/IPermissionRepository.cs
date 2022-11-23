@@ -1,19 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace MyProject.Repositoties.Interfaces
+namespace MyProject.Repositories.Interfaces
 {
   public  interface IPermissionRepository
     {
-         List<Permission> GetAll();
-
-         Permission GetById(int id);
-
-         Permission Add(int id, string name, string description);
-
-         Permission Update(Permission r);
-
-         void Delete(int id);
+        Task<List<Permission>> GetAllAsync();
+        Task<Permission> GetByIdAsync(int id);
+        Task<Permission> AddAsync(string name, string description);
+        Task<Permission> UpdateAsync(Permission r);
+        Task DeleteAsync(int id);
     }
 }

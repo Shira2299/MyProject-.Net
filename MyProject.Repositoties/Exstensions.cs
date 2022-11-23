@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using MyProject.Repositoties.Interface;
-using MyProject.Repositoties.Interfaces;
-using MyProject.Repositoties.Repositories;
+using MyProject.Repositories.Interface;
+using MyProject.Repositories.Interfaces;
+using MyProject.Repositories.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyProject.Repositoties
+namespace MyProject.Repositories
 {
     public static class Exstensions
     {

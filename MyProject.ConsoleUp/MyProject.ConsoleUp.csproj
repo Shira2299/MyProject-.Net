@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyProject.Mock\MyProject.Mock.csproj" />
-    <ProjectReference Include="..\MyProject.Repositoties\MyProject.Repositoties.csproj" />
+    <ProjectReference Include="..\MyProject.Repositoties\MyProject.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,9 +9,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MyProject.Contex;
 using MyProject.Mock;
-using MyProject.Repositoties.Interface;
-using MyProject.Repositoties.Interfaces;
-using MyProject.Repositoties.Repositories;
+using MyProject.Repositories;
+using MyProject.Repositories.Interface;
+using MyProject.Repositories.Interfaces;
+using MyProject.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,12 +53,12 @@ namespace MyProject.WebApi
             });
             
             services.AddScoped<IEmailManager, EmailManager>();
+            services.AddServices();
             // services.AddScoped<IRoleRepository, RoleRepository>();
-            //services.AddScoped<IContex, MockContext>();
-            services.AddDbContext<IContex, MyDbContex>();
             //services.AddScoped<IPermissionRepository, PermmisionRepository>();
             //services.AddScoped<IClaimRepository, ClaimRepository>();
-
+            //services.AddScoped<IContex, MockContext>();
+            services.AddDbContext<IContex, MyDbContex>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -84,6 +85,5 @@ namespace MyProject.WebApi
             });
         }
     }
-
-   
+  
 }

@@ -1,6 +1,6 @@
 ﻿using MyProject.Mock;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Repositories;
+using MyProject.Repositories;
+using MyProject.Repositories.Repositories;
 using System;
 
 namespace MyProject.ConsoleUp

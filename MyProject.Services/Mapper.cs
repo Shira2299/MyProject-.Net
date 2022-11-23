@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using MyProject.Common.DTOs;
-using MyProject.Repositoties;
+using MyProject.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

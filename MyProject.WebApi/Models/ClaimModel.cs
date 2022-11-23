@@ -1,12 +1,11 @@
-﻿using MyProject.Repositoties;
+﻿using MyProject.Repositories;
 
 namespace MyProject.WebApi.Models
 {
     public class ClaimModel
     {
-        public int RoleId { get; set; }
-        public int PermissionId { get; set; }
+        public Role RoleId { get; set; }
+        public Permission PermissionId { get; set; }
         public Epolicy epolicy { get; set; }
-       // public string Name { get; set; } check if we need
     }
 }

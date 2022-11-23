@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Interface;
-using MyProject.Repositoties.Interfaces;
-using MyProject.Repositoties.Repositories;
+using MyProject.Repositories;
+using MyProject.Repositories.Interface;
+using MyProject.Repositories.Interfaces;
+using MyProject.Repositories.Repositories;
 using MyProject.Services.Interfaces;
 using MyProject.Services.Services;
 using System;
@@ -17,7 +17,7 @@ namespace MyProject.Services
 {
     public static class Exstensions
     {
-        public static IServiceCollection addServices(this IServiceCollection services)
+        public static IServiceCollection AddServices(this IServiceCollection services)
         {           
             services.AddRepositories();
             services.AddScoped<IRoleService, RoleServices>();

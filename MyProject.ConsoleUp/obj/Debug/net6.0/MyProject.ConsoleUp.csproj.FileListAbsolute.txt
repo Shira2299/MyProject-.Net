@@ -1,8 +1,63 @@
-E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.AssemblyReference.cache
-E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.GeneratedMSBuildEditorConfig.editorconfig
-E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfoInputs.cache
-E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfo.cs
-E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.exe
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.deps.json
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.runtimeconfig.json
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.pdb
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Mock.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositories.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Mock.pdb
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositories.pdb
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfo.cs
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CopyComplete
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\refint\MyProject.ConsoleUp.dll
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.pdb
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.genruntimeconfig.cache
+C:\Users\User\Desktop\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\ref\MyProject.ConsoleUp.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.exe
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.deps.json
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.runtimeconfig.json
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.pdb
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Mock.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositories.dll
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Mock.pdb
+F:\try\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositories.pdb
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.AssemblyReference.cache
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.GeneratedMSBuildEditorConfig.editorconfig
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfoInputs.cache
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfo.cs
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CoreCompileInputs.cache
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CopyComplete
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.dll
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\refint\MyProject.ConsoleUp.dll
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.pdb
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.genruntimeconfig.cache
+F:\try\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\ref\MyProject.ConsoleUp.dll
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.exe
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.deps.json
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.runtimeconfig.json
@@ -19,12 +74,47 @@ E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extension
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Mock.dll
-E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositoties.dll
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositories.dll
 E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Mock.pdb
-E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositoties.pdb
+E:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositories.pdb
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.AssemblyReference.cache
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfoInputs.cache
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfo.cs
+E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CoreCompileInputs.cache
 E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CopyComplete
 E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.dll
 E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\refint\MyProject.ConsoleUp.dll
 E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.pdb
 E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.genruntimeconfig.cache
 E:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\ref\MyProject.ConsoleUp.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.exe
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.deps.json
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.runtimeconfig.json
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.ConsoleUp.pdb
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Mock.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositories.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Mock.pdb
+F:\Full Stack\MyProject\MyProject.ConsoleUp\bin\Debug\net6.0\MyProject.Repositories.pdb
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.AssemblyReference.cache
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.GeneratedMSBuildEditorConfig.editorconfig
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfoInputs.cache
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.AssemblyInfo.cs
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CoreCompileInputs.cache
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.csproj.CopyComplete
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\refint\MyProject.ConsoleUp.dll
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.pdb
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\MyProject.ConsoleUp.genruntimeconfig.cache
+F:\Full Stack\MyProject\MyProject.ConsoleUp\obj\Debug\net6.0\ref\MyProject.ConsoleUp.dll

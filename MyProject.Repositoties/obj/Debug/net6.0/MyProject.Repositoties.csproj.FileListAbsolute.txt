@@ -10,3 +10,15 @@ E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Reposi
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\refint\MyProject.Repositoties.dll
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.pdb
 E:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\ref\MyProject.Repositoties.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositoties.deps.json
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositoties.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\bin\Debug\net6.0\MyProject.Repositoties.pdb
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.csproj.AssemblyReference.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.GeneratedMSBuildEditorConfig.editorconfig
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.AssemblyInfoInputs.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.AssemblyInfo.cs
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.csproj.CoreCompileInputs.cache
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\refint\MyProject.Repositoties.dll
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\MyProject.Repositoties.pdb
+F:\Full Stack\MyProject\MyProject.Repositoties\obj\Debug\net6.0\ref\MyProject.Repositoties.dll

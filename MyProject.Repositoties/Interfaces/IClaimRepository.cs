@@ -2,19 +2,16 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace MyProject.Repositoties.Interfaces
+namespace MyProject.Repositories.Interfaces
 {
   public  interface IClaimRepository
     {
-         List<Claim> GetAll();
-
-         Claim GetById(int id);
-
-         Claim Add(int id, int RoleId, int PermissionId);
-
-         Claim Update(Claim c);
-
-         void Delete(int id);
+        Task<List<Claim>> GetAllAsync();
+        Task<Claim> GetByIdAsync(int id);
+        Task<Claim> AddAsync(Role role, Permission permission, Epolicy policy);
+        Task<Claim> UpdateAsync(Claim c);
+        Task DeleteAsync(int id);
     }
 }

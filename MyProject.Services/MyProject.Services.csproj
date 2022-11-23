@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyProject.Common\MyProject.Common.csproj" />
-    <ProjectReference Include="..\MyProject.Repositoties\MyProject.Repositoties.csproj" />
+    <ProjectReference Include="..\MyProject.Repositoties\MyProject.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

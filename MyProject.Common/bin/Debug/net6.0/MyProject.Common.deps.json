@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "MyProject.Common/1.0.0": {
         "dependencies": {
-          "MyProject.Repositoties": "1.0.0"
+          "MyProject.Repositories": "1.0.0"
         },
         "runtime": {
           "MyProject.Common.dll": {}
@@ -143,13 +143,13 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "MyProject.Repositoties/1.0.0": {
+      "MyProject.Repositories/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.11",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection": "6.0.1"
         },
         "runtime": {
-          "MyProject.Repositoties.dll": {}
+          "MyProject.Repositories.dll": {}
         }
       }
     }
@@ -258,7 +258,7 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "MyProject.Repositoties/1.0.0": {
+    "MyProject.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

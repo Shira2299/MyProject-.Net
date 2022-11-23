@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyProject.Repositoties;
-using MyProject.Repositoties.Interfaces;
+using MyProject.Common.DTOs;
+using MyProject.Repositories;
+using MyProject.Repositories.Interfaces;
+using MyProject.Services.Interfaces;
 using MyProject.WebApi.Models;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,50 +15,51 @@ namespace MyProject.WebApi.Controllers
     [ApiController]
     public class ClaimsController : ControllerBase
     {
-        private readonly IClaimRepository _claimRepository;
+        private readonly IClaimServices _claimService;
 
-        public ClaimsController(IClaimRepository claimRepository)
+        public ClaimsController(IClaimServices claimService)
         {
-            _claimRepository = claimRepository;
+            _claimService = claimService;
         }
 
         // GET: api/<ClaimsController>
         [HttpGet]
-        public IEnumerable<Claim> Get()
+        public async Task<List<ClaimDTO>> Get()
         {
-            return _claimRepository.GetAll();
+            return await _claimService.GetListAsync();
         }
 
         // GET api/<ClaimsController>/5
         [HttpGet("{id}")]
-        public Claim Get(int id)
+        public async Task<ClaimDTO> Get(int id)
         {
-            return _claimRepository.GetById(id);    
+            return await _claimService.GetByIdAsync(id);    
         }
        
         // POST api/<ClaimsController>
         [HttpPost]
-        public Claim Post(int id, int RoleId, int PermissionId)//add
+        public async Task<int> Post([FromBody] ClaimModel c)//add
         {
-            return _claimRepository.Add(id, RoleId, PermissionId);           
+            var newClaim=await _claimService.AddAsync(c.RoleId,c.PermissionId,c.epolicy); 
+            return newClaim.Id;
         }
 
         // PUT api/<ClaimsController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] ClaimModel model)//update
+        public async Task Put(int id, [FromBody] ClaimModel model)//update
         {
-            var claim = _claimRepository.GetById(id);
-            claim.RoleId = model.RoleId;
-            claim.PermissionId = model.PermissionId;
-            claim.epolicy = model.epolicy;       
-            _claimRepository.Update(claim);
+            var claim = await _claimService.GetByIdAsync(id);
+            claim.Role= model.RoleId;
+            claim.Permission = model.PermissionId;
+            claim.epolicy = model.epolicy;
+            await _claimService.UpdateAsync(claim);
         }
 
         // DELETE api/<ClaimsController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async void Delete(int id)
         {
-            _claimRepository.Delete(id);
+           await _claimService.DeleteAsync(id);
         }
     }
 }
