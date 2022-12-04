@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using MyProject.Common.DTOs;
 using MyProject.Repositories;
 using MyProject.Repositories.Interface;
@@ -15,19 +17,22 @@ namespace MyProject.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class RolesController : ControllerBase
     {
         // private readonly IEmailManager _emailManager;
         private readonly IRoleService _roleService;
+        private readonly ILogger<RolesController> _logger;
 
         //public RolesController(IEmailManager emailManager, IRoleRepository roleRepository)
         //{
         //    _emailManager = emailManager;
         //    _roleRepository = roleRepository;
         //}
-        public RolesController(IRoleService roleService)
+        public RolesController(IRoleService roleService, ILogger<RolesController> logger)
         {
             _roleService = roleService;
+            _logger = logger;
         }
 
         // GET: api/<RolesController>

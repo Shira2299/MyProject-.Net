@@ -328,3 +328,155 @@ E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\refint\MyProject.WebAp
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.pdb
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.genruntimeconfig.cache
 E:\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\ref\MyProject.WebApi.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\appsettings.json
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.exe
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.deps.json
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.runtimeconfig.json
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.pdb
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Common.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Contex.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Mock.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Repositories.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Services.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Common.pdb
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Contex.pdb
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Mock.pdb
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Repositories.pdb
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Services.pdb
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.AssemblyInfo.cs
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\scopedcss\bundle\MyProject.WebApi.styles.css
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.csproj.CopyComplete
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\refint\MyProject.WebApi.dll
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.pdb
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.genruntimeconfig.cache
+C:\Users\student\Desktop\MyProject\MyProject.WebApi\obj\Debug\net6.0\ref\MyProject.WebApi.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\appsettings.Development.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\appsettings.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.exe
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.deps.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.runtimeconfig.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.WebApi.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\AutoMapper.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Humanizer.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Drawing.Common.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Security.Permissions.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Common.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Contex.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Mock.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Repositories.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Services.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Common.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Contex.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Mock.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Repositories.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\bin\Debug\net6.0\MyProject.Services.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.csproj.AssemblyReference.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.AssemblyInfoInputs.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.AssemblyInfo.cs
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.csproj.CoreCompileInputs.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.MvcApplicationPartsAssemblyInfo.cs
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.MvcApplicationPartsAssemblyInfo.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\staticwebassets.build.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\staticwebassets.development.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\scopedcss\bundle\MyProject.WebApi.styles.css
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.csproj.CopyComplete
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\refint\MyProject.WebApi.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\MyProject.WebApi.genruntimeconfig.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.WebApi\obj\Debug\net6.0\ref\MyProject.WebApi.dll

@@ -58,3 +58,33 @@ E:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.dll
 E:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\refint\MyProject.Common.dll
 E:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.pdb
 E:\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\ref\MyProject.Common.dll
+C:\Users\student\Desktop\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.deps.json
+C:\Users\student\Desktop\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.dll
+C:\Users\student\Desktop\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.pdb
+C:\Users\student\Desktop\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Repositories.dll
+C:\Users\student\Desktop\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Repositories.pdb
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.AssemblyInfo.cs
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.CopyComplete
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.dll
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\refint\MyProject.Common.dll
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.pdb
+C:\Users\student\Desktop\MyProject\MyProject.Common\obj\Debug\net6.0\ref\MyProject.Common.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.deps.json
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Common.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Repositories.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\bin\Debug\net6.0\MyProject.Repositories.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.AssemblyReference.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.GeneratedMSBuildEditorConfig.editorconfig
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.AssemblyInfoInputs.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.AssemblyInfo.cs
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.CoreCompileInputs.cache
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.csproj.CopyComplete
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\refint\MyProject.Common.dll
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\MyProject.Common.pdb
+W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Common\obj\Debug\net6.0\ref\MyProject.Common.dll

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using MyProject.Common.DTOs;
 using MyProject.Repositories;
 using MyProject.Repositories.Interfaces;
@@ -15,12 +17,16 @@ namespace MyProject.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class PermisionsController : ControllerBase
     {
         private readonly IPermmisionServices _permissionService;
-        public PermisionsController(IPermmisionServices permissionService)
+        private readonly ILogger<IPermmisionServices> _logger;
+        public PermisionsController(IPermmisionServices permissionService,ILogger<IPermmisionServices> logger)
         {
             _permissionService = permissionService;
+            _logger = logger;
         }
 
         // GET: api/<PermisionsController>

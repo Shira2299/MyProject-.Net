@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using MyProject.Common.DTOs;
 using MyProject.Repositories;
 using MyProject.Repositories.Interfaces;
@@ -13,13 +15,16 @@ namespace MyProject.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ClaimsController : ControllerBase
     {
         private readonly IClaimServices _claimService;
+        private readonly ILogger<IClaimServices> _logger;
 
-        public ClaimsController(IClaimServices claimService)
+        public ClaimsController(IClaimServices claimService, ILogger<IClaimServices> logger)
         {
             _claimService = claimService;
+            _logger = logger;
         }
 
         // GET: api/<ClaimsController>
