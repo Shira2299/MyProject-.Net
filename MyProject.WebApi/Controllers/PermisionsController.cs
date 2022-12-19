@@ -38,9 +38,12 @@ namespace MyProject.WebApi.Controllers
 
         // GET api/<PermisionsController>/5
         [HttpGet("{id}")]
-        public async Task<PermissionDTO> Get(int id)
+        public async Task<ActionResult<PermissionDTO>> Get(int id)
         {
-            return await _permissionService.GetByIdAsync(id);
+            var permmision= await _permissionService.GetByIdAsync(id);
+            if(permmision is null)
+                return NotFound();
+            return permmision;
         }
      
         // POST api/<PermisionsController>

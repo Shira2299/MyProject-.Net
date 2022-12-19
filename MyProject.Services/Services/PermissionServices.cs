@@ -40,9 +40,9 @@ namespace MyProject.Services.Services
             return _mapper.Map<List<PermissionDTO>>(await _permissionRepository.GetAllAsync());
         }
 
-        public async Task<PermissionDTO> UpdateAsync(PermissionDTO r)
+        public async Task<PermissionDTO> UpdateAsync(PermissionDTO p)
         {
-            return _mapper.Map<PermissionDTO>(await _permissionRepository.UpdateAsync(_mapper.Map<Permission>(r)));
+            return _mapper.Map<PermissionDTO>(await _permissionRepository.UpdateAsync(_mapper.Map<Permission>(p)));
         }
     }
 }

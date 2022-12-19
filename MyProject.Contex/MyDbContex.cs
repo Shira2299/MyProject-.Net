@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.Extensions.Options;
 using MyProject.Repositories;
 using System.Reflection.Metadata;
+using MyProject.Repositories.Entities;
 //namespace EFModeling.EntityProperties.DataAnnotations;
 namespace MyProject.Contex
 {
@@ -14,6 +15,8 @@ namespace MyProject.Contex
         public DbSet<Permission> Permissions { get; set; }
 
         public DbSet<Claim> Claims { get; set; }
+
+        public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -18,9 +18,10 @@ namespace MyProject.Repositories.Repositories
         }
         public async Task<Role> AddAsync(string name, string description)
         {
-            var newRole = new Role { Name = name, Description = description };
-            await  _context.Roles.AddAsync(newRole);
-            return newRole;
+            Role newRole = new Role { Name = name, Description = description };
+            var role=_context.Roles.Add(newRole);
+            await _context.SaveChangesAsync();
+            return role.Entity;           
         }
 
         public async Task DeleteAsync(int id)
@@ -35,16 +36,16 @@ namespace MyProject.Repositories.Repositories
      
         public async Task<Role> GetByIdAsync(int id)
         {
-            // return await _context.Roles.FirstAsync(r => r.Id == id);
-            return await _context.Roles.FindAsync(id);
+            // return await _context.Roles.FirstAsync(r => r.Id == id);  or
+            return await _context.Roles.FindAsync(id);//???there is a problem
         }
 
         public async Task<Role> UpdateAsync(Role r)
         {
 
-            var update = _context.Roles.Update(r);
+            var role = _context.Roles.Update(r);
             await _context.SaveChangesAsync();
-            return update.Entity;
+            return role.Entity;
             //var updateRole = await _context.Roles.FindAsync(r.Id);
             //updateRole.Name = r.Name;
             //updateRole.Description = r.Description;

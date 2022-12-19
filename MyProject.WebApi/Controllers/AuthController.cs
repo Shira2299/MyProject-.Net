@@ -36,7 +36,7 @@ namespace MyProject.WebApi.Controllers
                     issuer: _conﬁguration.GetValue<string>("JWT:Issuer"),
                     audience: _conﬁguration.GetValue<string>("JWT:Audience"),
                     claims: claims,
-                    expires: DateTime.Now.AddSeconds(30),
+                    expires: DateTime.Now.AddMinutes(6),
                     signingCredentials: signinCredentials
                 );
                 var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);

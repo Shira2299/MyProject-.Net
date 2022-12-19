@@ -18,9 +18,10 @@ namespace MyProject.Repositories.Repositories
         }
         public async Task<Permission> AddAsync(string name, string description)
         {
-            var newPermission = new Permission { Name = name, Description = description };
-           await _context.Permissions.AddAsync(newPermission);
-            return newPermission;    
+            Permission newPermission = new Permission { Name = name, Description = description };
+            var permission=_context.Permissions.Add(newPermission);
+            await _context.SaveChangesAsync();  
+            return permission.Entity;
         }
 
         public async Task DeleteAsync(int id)
@@ -43,7 +44,6 @@ namespace MyProject.Repositories.Repositories
             updatePermission.Name = p.Name;
             updatePermission.Description = p.Description;
             return updatePermission;
-
         }
 
         public async Task<List<Permission>> GetAllAsync()

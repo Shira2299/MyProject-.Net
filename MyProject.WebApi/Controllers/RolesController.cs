@@ -44,12 +44,14 @@ namespace MyProject.WebApi.Controllers
 
         // GET api/<RolesController>/5
         [HttpGet("{id}")]
-        public async Task<RoleDTO> Get(int id)
+        public async Task<ActionResult<RoleDTO>> Get(int id)
         {
-            return await _roleService.GetByIdAsync(id);
+            var role = await _roleService.GetByIdAsync(id);
+            if(role is null)
+                return NotFound();
+            return Ok(role);
         }
         
-        //[FromBody] string value
         // POST api/<RolesController>
         [HttpPost]
         public async Task<int> Post([FromBody] RoleModel r)//add
@@ -59,7 +61,6 @@ namespace MyProject.WebApi.Controllers
             return newRole.Id;
         }
 
-        //int id, [FromBody] string value
         // PUT api/<RolesController>/5
         [HttpPut("{id}")]
         public async Task Put(int id, [FromBody]RoleModel model)//update

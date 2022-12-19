@@ -36,9 +36,12 @@ namespace MyProject.WebApi.Controllers
 
         // GET api/<ClaimsController>/5
         [HttpGet("{id}")]
-        public async Task<ClaimDTO> Get(int id)
+        public async Task<ActionResult<ClaimDTO>> Get(int id)
         {
-            return await _claimService.GetByIdAsync(id);    
+            var claim= await _claimService.GetByIdAsync(id);    
+            if(claim is null)
+                return NotFound();
+            return Ok(claim);//???OK לא רץ ולא בגלל האוקי זה שגיאה אחרת
         }
        
         // POST api/<ClaimsController>

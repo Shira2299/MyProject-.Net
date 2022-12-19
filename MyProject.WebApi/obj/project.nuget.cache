@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wtFYHG0dXbETQP1QnR2bX9K/KI4nuu+TEe2wsU2y2/INeuwKQKC+VrQZg81H+U9984DN7/b6crT18GOOwApu3g==",
+  "dgSpecHash": "iOAHO+t3ZW+b6N5uagN8Sc0S/vZ9kLT4OHQfg+hlRMFQJ3irgQQxwkxPuABdOMmXetnFrRZLIZZKI5bN/hx0FQ==",
   "success": true,
   "projectFilePath": "F:\\Full Stack\\MyProject\\MyProject.WebApi\\MyProject.WebApi.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.11\\microsoft.aspnetcore.authentication.jwtbearer.6.0.11.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.11\\microsoft.aspnetcore.authentication.openidconnect.6.0.11.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

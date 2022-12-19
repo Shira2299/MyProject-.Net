@@ -23,6 +23,7 @@ namespace MyProject.Services
             services.AddScoped<IRoleService, RoleServices>();
             services.AddScoped<IClaimServices, ClaimServices>();
             services.AddScoped<IPermmisionServices, PermissionServices>();
+            services.AddScoped<IUserServices,UserServices>();  
             services.AddAutoMapper(typeof(Mapper));
             return services;
         }

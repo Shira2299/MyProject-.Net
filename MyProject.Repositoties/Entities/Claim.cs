@@ -20,7 +20,7 @@ namespace MyProject.Repositories
 
         public override string ToString()
         {
-            return $"Id:{Id} RoleId:{Role} PermissionId:{Permission}";
+            return $"Id:{Id}, RoleId:{Role}, PermissionId:{Permission}, Policy:{Policy}";
         }
     }
 }

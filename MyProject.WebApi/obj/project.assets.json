@@ -63,18 +63,18 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.1": {
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.11": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
         },
         "compile": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
             "related": ".xml"
           }
         },
@@ -1061,18 +1061,18 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.1": {
-      "sha512": "bZZrUvT54W3lKQiP7e/11e2h76Qk81bG5TlqLB7tOTg02Uc02dYpbm6488NwmeKfSfO8Pto8rPwy5aq2rFRSgA==",
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.11": {
+      "sha512": "hb7gtJHzt9X858hZdcFWZdv+c74A8xzeHuyxuNwMXH5ATEmlWScB7DvBshZCcCjGR6UHIBEFHMZW/fitYPPZUA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authentication.openidconnect/5.0.1",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/6.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.xml",
-        "microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.xml",
+        "microsoft.aspnetcore.authentication.openidconnect.6.0.11.nupkg.sha512",
         "microsoft.aspnetcore.authentication.openidconnect.nuspec"
       ]
     },
@@ -2402,7 +2402,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.11",
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.1",
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.11",
       "MyProject.Common >= 1.0.0",
       "MyProject.Contex >= 1.0.0",
@@ -2481,7 +2481,7 @@
           },
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
             "target": "Package",
-            "version": "[5.0.1, )",
+            "version": "[6.0.11, )",
             "noWarn": [
               "NU1605"
             ]

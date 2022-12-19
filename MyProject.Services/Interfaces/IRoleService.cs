@@ -11,9 +11,13 @@ namespace MyProject.Services.Interfaces
     {
         //why RoleDTO and not Role?
         Task<List<RoleDTO>> GetListAsync();
+
         Task<RoleDTO> GetByIdAsync(int id);
+
         Task<RoleDTO> AddAsync(string name, string description);
+
         Task<RoleDTO> UpdateAsync(RoleDTO r);
+
         Task DeleteAsync(int id);
     }
 }

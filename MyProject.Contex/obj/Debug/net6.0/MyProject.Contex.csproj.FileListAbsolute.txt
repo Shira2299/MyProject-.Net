@@ -1,54 +1,3 @@
-F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.deps.json
-F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.runtimeconfig.json
-F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.dll
-F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.pdb
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.AssemblyReference.cache
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.GeneratedMSBuildEditorConfig.editorconfig
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfoInputs.cache
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfo.cs
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CoreCompileInputs.cache
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CopyComplete
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.dll
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\refint\MyProject.Contex.dll
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.pdb
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.genruntimeconfig.cache
-F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\ref\MyProject.Contex.dll
-C:\Users\User\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.deps.json
-C:\Users\User\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.runtimeconfig.json
-C:\Users\User\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.dll
-C:\Users\User\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.pdb
-C:\Users\User\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.dll
-C:\Users\User\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.pdb
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfoInputs.cache
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfo.cs
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CopyComplete
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.dll
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\refint\MyProject.Contex.dll
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.pdb
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.genruntimeconfig.cache
-C:\Users\User\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\ref\MyProject.Contex.dll
-F:\try\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.deps.json
-F:\try\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.runtimeconfig.json
-F:\try\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.dll
-F:\try\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.pdb
-F:\try\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.dll
-F:\try\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.pdb
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.AssemblyReference.cache
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.GeneratedMSBuildEditorConfig.editorconfig
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfoInputs.cache
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfo.cs
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CoreCompileInputs.cache
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CopyComplete
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.dll
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\refint\MyProject.Contex.dll
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.pdb
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.genruntimeconfig.cache
-F:\try\MyProject\MyProject.Contex\obj\Debug\net6.0\ref\MyProject.Contex.dll
-F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.dll
-F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.pdb
 E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.deps.json
 E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.runtimeconfig.json
 E:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.dll
@@ -66,37 +15,20 @@ E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\refint\MyProject.Conte
 E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.pdb
 E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.genruntimeconfig.cache
 E:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\ref\MyProject.Contex.dll
-C:\Users\student\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.deps.json
-C:\Users\student\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.runtimeconfig.json
-C:\Users\student\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.dll
-C:\Users\student\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.pdb
-C:\Users\student\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.dll
-C:\Users\student\Desktop\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.pdb
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.AssemblyReference.cache
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfoInputs.cache
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfo.cs
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CoreCompileInputs.cache
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CopyComplete
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.dll
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\refint\MyProject.Contex.dll
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.pdb
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.genruntimeconfig.cache
-C:\Users\student\Desktop\MyProject\MyProject.Contex\obj\Debug\net6.0\ref\MyProject.Contex.dll
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.deps.json
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.runtimeconfig.json
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.dll
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.pdb
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.dll
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.pdb
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.AssemblyReference.cache
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.GeneratedMSBuildEditorConfig.editorconfig
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfoInputs.cache
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfo.cs
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CoreCompileInputs.cache
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CopyComplete
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.dll
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\refint\MyProject.Contex.dll
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.pdb
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.genruntimeconfig.cache
-W:\כתות ו\התמחויות\הנדסת תוכנה\תלמידות\מועלם שירה\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\ref\MyProject.Contex.dll
+F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.deps.json
+F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.runtimeconfig.json
+F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.dll
+F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Contex.pdb
+F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.dll
+F:\Full Stack\MyProject\MyProject.Contex\bin\Debug\net6.0\MyProject.Repositories.pdb
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.AssemblyReference.cache
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.GeneratedMSBuildEditorConfig.editorconfig
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfoInputs.cache
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.AssemblyInfo.cs
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CoreCompileInputs.cache
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.csproj.CopyComplete
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.dll
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\refint\MyProject.Contex.dll
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.pdb
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\MyProject.Contex.genruntimeconfig.cache
+F:\Full Stack\MyProject\MyProject.Contex\obj\Debug\net6.0\ref\MyProject.Contex.dll

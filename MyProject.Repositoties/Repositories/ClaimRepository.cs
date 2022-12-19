@@ -20,8 +20,9 @@ namespace MyProject.Repositories.Repositories
         public async Task<Claim> AddAsync(Role role, Permission permission, Epolicy policy)
         {
             Claim newClaim = new Claim { /*Role=role,Permission=permission ,*/Policy=policy };
-            await _contex.Claims.AddAsync(newClaim);
-            return newClaim;
+            var claim=_contex.Claims.Add(newClaim);
+            await _contex.SaveChangesAsync();
+            return claim.Entity;
         }
 
         public async Task DeleteAsync(int id)

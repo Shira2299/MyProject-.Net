@@ -15,6 +15,7 @@ namespace MyProject.Repositories
             services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IPermissionRepository, PermmisionRepository>();
             services.AddScoped<IClaimRepository, ClaimRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             return services;
         }
     }

@@ -16,7 +16,7 @@ namespace MyProject.Services.Interfaces
 
         Task<PermissionDTO> AddAsync(string name, string description);
 
-        Task<PermissionDTO> UpdateAsync(PermissionDTO r);
+        Task<PermissionDTO> UpdateAsync(PermissionDTO p);
 
         Task DeleteAsync(int id);
     }
