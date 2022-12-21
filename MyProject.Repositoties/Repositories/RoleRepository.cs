@@ -27,11 +27,12 @@ namespace MyProject.Repositories.Repositories
         public async Task DeleteAsync(int id)
         {
             var deleteRole =await GetByIdAsync(id);
-            if(deleteRole != null)
+            if (deleteRole != null)
             {
-                _context.Roles.Remove(deleteRole);
+                _context.Roles.Remove(deleteRole);//????
                 await _context.SaveChangesAsync();
-            }       
+            }
+
         }
      
         public async Task<Role> GetByIdAsync(int id)

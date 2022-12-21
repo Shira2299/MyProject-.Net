@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MyProject.Repositories
 {
-    public enum Epolicy { Allow, Deny, Mandatory }
+    public enum Epolicy { Allow, Deny, Mandatory }//חובה,לא מאופשר,מאופשר-מורשה
     public class Claim
     {
         public int Id { get; set; }

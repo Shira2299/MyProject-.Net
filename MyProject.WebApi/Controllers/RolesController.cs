@@ -56,8 +56,8 @@ namespace MyProject.WebApi.Controllers
         [HttpPost]
         public async Task<int> Post([FromBody] RoleModel r)//add
         {
-            // _emailManager.Send("Shiram33993@gmail.com");
-         var newRole= await _roleService.AddAsync(r.Name,r.Description);     
+            //_emailManager.Send("Shiram33993@gmail.com");
+            var newRole = await _roleService.AddAsync(r.Name, r.Description);
             return newRole.Id;
         }
 
